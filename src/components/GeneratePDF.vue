@@ -24,7 +24,7 @@ export default {
     async generatePdf() {
       await this.loadPdfMaker();
       const def = {
-        content: "A sample PDF document generated using Angular and PDFMake",
+        content: "A sample PDF document generated using Vuejs and PDFMake",
       };
       this.pdfMake.createPdf(def).open();
     },
